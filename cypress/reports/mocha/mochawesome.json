@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-25T20:14:44.638Z",
+    "end": "2022-03-25T20:14:55.472Z",
+    "duration": 10834,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6a0e8442-1330-4360-9754-cfd04f16765b",
+      "title": "",
+      "fullFile": "cypress/integration/addToCart.spec.js",
+      "file": "cypress/integration/addToCart.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fc56a8dd-eab2-4754-9f62-14c042d020c5",
+          "title": "Navigate to Website",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate that Cart Drop-down Shows If Products Are Added to Cart",
+              "fullTitle": "Navigate to Website Validate that Cart Drop-down Shows If Products Are Added to Cart",
+              "timedOut": null,
+              "duration": 9394,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addProductShowsCart();",
+              "err": {},
+              "uuid": "274f69ce-af48-477e-a772-7d568c896853",
+              "parentUUID": "fc56a8dd-eab2-4754-9f62-14c042d020c5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate that Cart is Closed If the Close Button (X) is Clicked",
+              "fullTitle": "Navigate to Website Validate that Cart is Closed If the Close Button (X) is Clicked",
+              "timedOut": null,
+              "duration": 363,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.clickCloseClosesCart();",
+              "err": {},
+              "uuid": "313bffe3-267b-495a-a88d-89c79f8632ff",
+              "parentUUID": "fc56a8dd-eab2-4754-9f62-14c042d020c5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate that Cart Drop-down is Visible If the Basket Icon is Clicked",
+              "fullTitle": "Navigate to Website Validate that Cart Drop-down is Visible If the Basket Icon is Clicked",
+              "timedOut": null,
+              "duration": 301,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.clickBasketShowsCart();",
+              "err": {},
+              "uuid": "739c11d7-8e5f-4f21-8ef7-1eae1df2e9f2",
+              "parentUUID": "fc56a8dd-eab2-4754-9f62-14c042d020c5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate that Cart Items are Cleared and Cart Hidden If the Clear Button is Clicked",
+              "fullTitle": "Navigate to Website Validate that Cart Items are Cleared and Cart Hidden If the Clear Button is Clicked",
+              "timedOut": null,
+              "duration": 599,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.clickClearRemovesCartItems();",
+              "err": {},
+              "uuid": "4d966458-d221-43c7-8fed-c4dff55099cd",
+              "parentUUID": "fc56a8dd-eab2-4754-9f62-14c042d020c5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "274f69ce-af48-477e-a772-7d568c896853",
+            "313bffe3-267b-495a-a88d-89c79f8632ff",
+            "739c11d7-8e5f-4f21-8ef7-1eae1df2e9f2",
+            "4d966458-d221-43c7-8fed-c4dff55099cd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10657,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
