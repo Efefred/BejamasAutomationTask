@@ -7,7 +7,7 @@ before(() => {
     cy.navigateToSite()
   })
 
-describe('Filter Products By Categories', () => {   
+describe('Filter Products By Category', () => {   
 
     it('Validate Products can be Filtered by Category', () => {
         const categories = ['nature','food','technology', 'luxury', 'art']
