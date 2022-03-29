@@ -1,4 +1,4 @@
-# Aklamio Test Automation Project
+# Bejamas Test Automation Project
 
 The purpose of this project is to develop a test automation framework to automate the testing of the Conduit web application, <https://qa-recruitment-task.netlify.app/>
 
