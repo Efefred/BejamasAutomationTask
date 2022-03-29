@@ -11,13 +11,14 @@ Cypress.Commands.add('navigateToSite', () => {
 //@ADD TO CART
 Cypress.Commands.add('addProductShowsCart', () => {  
     cy.get('.VAFCy > .Buttonstyle__ButtonWrapper-sc-1d6yy9q-0').contains('Add to Cart').click()
-    cy.get(':nth-child(1) > .ProductCardstyle__ProductImageWrapper-sc-5v39a6-1')
+    cy.get(':nth-child(1) > .ProductCardstyle__ProductCardWrapper-sc-5v39a6-0 > .ProductCardstyle__ProductImageWrapper-sc-5v39a6-1')
       .invoke('show').contains('Add to Cart').click({force: true})
 })
 
 //@CLEAR BUTTON 
 Cypress.Commands.add('clearRemovesCartItems', () => {  
-    cy.get('.Buttonstyle__ButtonWrapper-sc-1d6yy9q-0').contains('Clear').click()
+    cy.addProductShowsCart()
+    cy.get('.ShoppingCartstyle__ButtonContainer-sc-1xombtx-1 > .Buttonstyle__ButtonWrapper-sc-1d6yy9q-0').contains('Clear').click()
  
  })
 

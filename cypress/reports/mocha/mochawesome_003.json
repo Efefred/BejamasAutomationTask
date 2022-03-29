@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-03-29T15:40:16.802Z",
+    "end": "2022-03-29T15:40:52.223Z",
+    "duration": 35421,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dca34fb8-c34d-4f0c-99ec-54096647ff87",
+      "title": "",
+      "fullFile": "cypress/integration/clearRemovesCartItems.spec.js",
+      "file": "cypress/integration/clearRemovesCartItems.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6177b4af-b421-458a-9cff-f08a903590ef",
+          "title": "Clear Button Clears Items on Cart",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate that Cart Items are Cleared and Cart Hidden If the Clear Button is Clicked",
+              "fullTitle": "Clear Button Clears Items on Cart Validate that Cart Items are Cleared and Cart Hidden If the Clear Button is Clicked",
+              "timedOut": null,
+              "duration": 35230,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.clearRemovesCartItems();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find content: 'Clear' within the element: <button.Buttonstyle__ButtonWrapper-sc-1d6yy9q-0.fQMgOi> but never did.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find content: 'Clear' within the element: <button.Buttonstyle__ButtonWrapper-sc-1d6yy9q-0.fQMgOi> but never did.\n    at Context.eval (https://qa-recruitment-task.netlify.app/__cypress/tests?p=cypress\\support\\index.js:116:54)",
+                "diff": null
+              },
+              "uuid": "e19c3342-8fdd-468b-9e5b-e91337e69e4e",
+              "parentUUID": "6177b4af-b421-458a-9cff-f08a903590ef",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e19c3342-8fdd-468b-9e5b-e91337e69e4e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 35230,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
