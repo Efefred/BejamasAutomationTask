@@ -1,6 +1,6 @@
 # Aklamio Test Automation Project
 
-The purpose of this project is to develop a test automation framework to automate the testing of the Conduit web application, <https://react-redux.realworld.io/>
+The purpose of this project is to develop a test automation framework to automate the testing of the Conduit web application, <https://qa-recruitment-task.netlify.app/>
 
 ## Prerequisites 
 ### 1. System Requirement
@@ -30,7 +30,7 @@ The integration folder contains the test (spec) files. The three tests are liste
 
 * addProductsShowCart
 * clearRemovesCartItems
-* featuredProductExists
+* filterProductByCategory
 
 
 ### *support*
@@ -46,7 +46,7 @@ The base Url is defined in the cypress.json file and referenced with the ```cy.v
 ```
 
 ### *package.json*
-The commands to execute the tests on a single browser and on two different browsers, in headed and headless modes, are defined in scripts section of the package.json file.
+The commands to execute the tests on a single browser and on two different browsers, in headed and headless modes, are defined in scripts section of the package.json file. The test execution for Safari browser was done on <https://crossbrowsertesting.com>
 
 ```yaml
 {
@@ -56,7 +56,6 @@ The commands to execute the tests on a single browser and on two different brows
    "run:chrome": "cypress run --browser chrome",
    "run:firefox": "cypress run --browser firefox",
    "run:edge": "cypress run --browser edge",
-   "run:twobrowsers": "npm run run:chrome && npm run run:firefox"
 }
 ```
 
@@ -93,15 +92,9 @@ A *Test Readiness Checklist* will checked before the execution Test scripts and 
 The *mochawesome reporter* will be used as the reporting tool for the test results. The test results are stored in this directory, *cypress/reports/mocha*. Follow these links for details on how to install and configure Mocahwesome reporter. <https://www.npmjs.com/package/mochawesome>. <https://www.linkedin.com/pulse/cypress-test-automation-reporting-mochawesome-amarasiri-/>
 
 ### Source Control: 
-A private repository, *BejamasAutomation*, is created in GitHub. All commits will be pushed to this remote repository .
-
-### Continous Integration/Continuous Delivery:  
-A CircleCI platform will be used for CI/CD. <br /> Use this link for details on how to integrate CircleCI with Cypress.
-<https://testdriven.io/blog/running-cypress-tests-in-parallel/#circleci-setup>
-
+A private repository, *BejamasAutomationTask*, is created in GitHub. All commits will be pushed to this remote repository .
 
 ## Glossary
 * *NPM:* Node Package Manager
 * *AUT:* Application Under Test
 * *SUT:* System Under Test
-* *CI/CD:* Continuous Integration/Continuous Delivery
