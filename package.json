@@ -1,7 +1,7 @@
 {
   "name": "bejamastestautomation",
   "version": "1.0.0",
-  "description": "Test Automation Framework for Bejamas",
+  "description": "Test Automation for Bejamas",
   "main": "index.js",
   "scripts": {
     "chrome:headed": "npx cypress run --headed --browser chrome",
