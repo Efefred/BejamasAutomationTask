@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-29T16:36:01.048Z",
+    "end": "2022-03-29T16:36:08.706Z",
+    "duration": 7658,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "22b641b2-436c-4e02-aaa4-8cd56bb7a3ae",
+      "title": "",
+      "fullFile": "cypress/integration/filterProductsByCategory.spec.js",
+      "file": "cypress/integration/filterProductsByCategory.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "78cd16ed-ae61-4344-80d9-0bc1bb2311b5",
+          "title": "Filter Products By Category",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate that Products can be Filtered by Category",
+              "fullTitle": "Filter Products By Category Validate that Products can be Filtered by Category",
+              "timedOut": null,
+              "duration": 7631,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.filterProductByCategory();",
+              "err": {},
+              "uuid": "e3598140-2ec9-4a95-8e31-92c977bf6267",
+              "parentUUID": "78cd16ed-ae61-4344-80d9-0bc1bb2311b5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e3598140-2ec9-4a95-8e31-92c977bf6267"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7631,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
