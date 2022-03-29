@@ -8,11 +8,6 @@ Cypress.Commands.add('navigateToSite', () => {
     cy.visit('/')
 })
 
-//@FEATURED PRODUCT
-Cypress.Commands.add('featureProductExist', () => {  
-    cy.get('.FeaturedProductstyle__ProductImageWrapper-b7938p-0 > p').contains('Photo of the day')
-})
-
 //@ADD TO CART
 Cypress.Commands.add('addProductShowsCart', () => {  
     cy.get('.VAFCy > .Buttonstyle__ButtonWrapper-sc-1d6yy9q-0').contains('Add to Cart').click()
@@ -21,11 +16,12 @@ Cypress.Commands.add('addProductShowsCart', () => {
 })
 
 //@CLEAR BUTTON 
-Cypress.Commands.add('clickClearRemovesCartItems', () => {  
+Cypress.Commands.add('clearRemovesCartItems', () => {  
     cy.get('.Buttonstyle__ButtonWrapper-sc-1d6yy9q-0').contains('Clear').click()
  
  })
- 
+
+ //@FILTER PRODUCTS BY CATEGORY
 Cypress.Commands.add('filterProductByCategory', () => { 
     const categories = ['nature','food','technology', 'luxury', 'art']
     categories.map(category=>{

@@ -10,7 +10,7 @@ before(() => {
 describe('Clear Button Clears Items on Cart', () => { 
 
  it('Validate that Cart Items are Cleared and Cart Hidden If the Clear Button is Clicked', () => {
-    cy.clickClearRemovesCartItems()
+    cy.clearRemovesCartItems()
   }) 
 
 })

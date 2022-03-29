@@ -11,6 +11,6 @@ describe('Add Products to Cart Shows Cart Drop-Down ', () => {
 
     it('Validate that Cart Drop-down Shows If Products Are Added to Cart', () => {
          cy.addProductShowsCart()
-    })
+    })  
 
 })
