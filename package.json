@@ -7,7 +7,7 @@
     "run:chrome:headed": "npx cypress run --headed --browser chrome",
     "run:firefox:headed": "cypress run --headed --browser firefox",
     "run:edge:headed": "cypress run --headed --browser edge",
-    "run:chrome": "cypress run --browser chrome",
+    "run:chrome": "npx cypress run --browser chrome",
     "run:firefox": "cypress run --browser firefox",
     "run:edge": "cypress run --browser edge",
     "run:twobrowsers": "npm run run:chrome && npm run run:firefox"
