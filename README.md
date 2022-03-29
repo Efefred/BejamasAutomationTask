@@ -48,12 +48,12 @@ The commands to execute the tests on a single browser and on two different brows
 
 ```yaml
 {
-   "run:chrome:headed": "cypress run --headed --browser chrome",
-   "run:firefox:headed": "cypress run --headed --browser firefox",
-   "run:edge:headed": "cypress run --headed --browser edge",
-   "run:chrome": "cypress run --browser chrome",
-   "run:firefox": "cypress run --browser firefox",
-   "run:edge": "cypress run --browser edge",
+    "chrome:headed": "npx cypress run --headed --browser chrome",
+    "firefox:headed": "npx cypress run --headed --browser firefox",
+    "edge:headed": "npx cypress run --headed --browser edge",
+    "chrome": "npx cypress run --browser chrome",
+    "firefox": "npx cypress run --browser firefox",
+    "edge": "npx cypress run --browser edge",
 }
 ```
 
