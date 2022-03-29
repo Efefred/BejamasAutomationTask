@@ -11,8 +11,6 @@ The purpose of this project is to develop a test automation framework to automat
 ### 2. NodeJs and NPM
 ### 3. An IDE (I used Visual Studio Code) 
 
-
-
 ## Installation 
  First, download and install node.js.
 <https://nodejs.org/en/download/>
@@ -59,7 +57,6 @@ The commands to execute the tests on a single browser and on two different brows
 }
 ```
 
-
 ## Test Strategy
 
 ### Entry Criteria:
@@ -70,7 +67,7 @@ The commands to execute the tests on a single browser and on two different brows
 * Test environment is ready and the necessary set-up/configuration done
 
 ### Test Case Design:
-The test cases are prepared based on exploratory testing since there was no test basis i.e. no requirement specification document. Also the the test cases are defined in specs files contained in the integration folder.
+The test cases are prepared based on exploratory testing since there was no test basis. Also the the test cases are defined in specs files contained in the integration folder.
  
 ### Test Case Execution:
 A *Test Readiness Checklist* will checked before the execution Test scripts and the following testing types will be executed.
