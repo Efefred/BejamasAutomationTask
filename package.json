@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "chrome:headed": "npx cypress run --headed --browser chrome",
-    "firefox:headed": "npx cypress run --headed --browser firefox",
-    "edge:headed": "npx cypress run --headed --browser edge",
-    "chrome": "npx cypress run --browser chrome",
-    "firefox": "npx cypress run --browser firefox",
-    "edge": "npx cypress run --browser edge"
+    "chrome:headless": "npx cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
