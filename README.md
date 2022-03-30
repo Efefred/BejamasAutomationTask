@@ -49,11 +49,7 @@ The commands to execute the tests on a single browser and on two different brows
 ```yaml
 {
     "chrome:headed": "npx cypress run --headed --browser chrome",
-    "firefox:headed": "npx cypress run --headed --browser firefox",
-    "edge:headed": "npx cypress run --headed --browser edge",
-    "chrome": "npx cypress run --browser chrome",
-    "firefox": "npx cypress run --browser firefox",
-    "edge": "npx cypress run --browser edge",
+    "chrome:headless": "npx cypress run --browser chrome",
 }
 ```
 
@@ -89,7 +85,7 @@ A *Test Readiness Checklist* will checked before the execution Test scripts and 
 The *mochawesome reporter* will be used as the reporting tool for the test results. The test results are stored in this directory, *cypress/reports/mocha*. Follow these links for details on how to install and configure Mocahwesome reporter. <https://www.npmjs.com/package/mochawesome>. <https://www.linkedin.com/pulse/cypress-test-automation-reporting-mochawesome-amarasiri-/>
 
 ### Source Control: 
-A private repository, *BejamasAutomationTask*, is created in GitHub. All commits will be pushed to this remote repository .
+A repository, *BejamasAutomationTask*, is created in GitHub. All commits will be pushed to this remote repository .
 
 ## Glossary
 * *NPM:* Node Package Manager
